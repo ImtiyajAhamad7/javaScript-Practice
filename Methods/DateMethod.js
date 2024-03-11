@@ -5,7 +5,9 @@ let MyDate = new Date();
 // console.log(typeof(MyDate));
 
 // console.log(MyDate.toString());
+
 // console.log(MyDate.toISOString()); //
+
 // console.log(MyDate.toLocaleDateString()); // returns the local date like 11/3/2024
 // console.log(MyDate.toLocaleTimeString()); // returns the local time
 
