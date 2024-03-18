@@ -1,6 +1,6 @@
 // declaration of array
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,5, 10];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,5, 10];
 
 // push method - it adds new element in the  last position of the array
 
@@ -56,28 +56,30 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,5, 10];
 
 //find method returns the first element its finds
 
-let arrObj = [
-    {
-        name: "Aman",
-        rn: 11
-    },
-    {
-        name: "imtiyaj",
-        rn: 30
-    },
-    {
-        name: "Satyam",
-        rn: 45
-    },
-    {
-        name: "Shifa",
-        rn: 46
-    },
-    {
-        name: "Priya",
-        rn: 40
-    }
-]
+// let arrObj = [
+//     {
+//         name: "Aman",
+//         rn: 11
+//     },
+//     {
+//         name: "imtiyaj",
+//         rn: 30
+//     },
+//     {
+//         name: "Satyam",
+//         rn: 45
+//     },
+//     {
+//         name: "Shifa",
+//         rn: 46
+//     },
+//     {
+//         name: "Priya",
+//         rn: 40
+//     }
+// ]
+
+
 
 // console.log(arrObj.find((element) =>{
 //    return  element.rn >40;
@@ -94,3 +96,34 @@ let arrObj = [
 
 
 
+/**
+ * @param {object[]} results
+ */
+let returning = [];
+function getPassingTests(results) {
+     console.log(results);
+ return returning =  results.filter((data)=>  
+        data.grade>=10      
+   ).map((data)=> data.grade);
+//    console.log(returning);
+   }
+   
+
+   
+
+
+// sample usage (do not modify)
+const data = [{
+   id: 1,
+   grade: 10
+},
+{
+   id: 2,
+   grade: 4
+}, 
+{
+   id: 3,
+   grade: 18
+}]
+let x = getPassingTests(data);
+console.log(x);

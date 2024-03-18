@@ -14,14 +14,14 @@ const bioData = {
 
 // after es6
 
- let {name:myName, age, occupation, hobbies} = bioData;   //we have to give same name for the variable as declare in the object but there is a way we can rename like name:newName
+//  let {name:myName, age, occupation, hobbies} = bioData;   //we have to give same name for the variable as declare in the object but there is a way we can rename like name:newName
 
- console.log(`after es6 my name is ${myName} and age is ${age} and occupation is ${occupation} and my hobbies is ${hobbies.hobbies1}`);
+//  console.log(`after es6 my name is ${myName} and age is ${age} and occupation is ${occupation} and my hobbies is ${hobbies.hobbies1}`);
 
 //  we can declare like this also
 
-//  let name:myName, age, occupation;
+//  let name, age, occupation;
 //  ({name, age, occupation}= bioData);
-//  console.log(`after es6 my name is ${names} and age is ${age} and occupation is ${occupation}`);
+//  console.log(`after es6 my name is ${name} and age is ${age} and occupation is ${occupation}`); //there is confusion in this code
 
 

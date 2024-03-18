@@ -1,6 +1,6 @@
 let MyDate = new Date();
 
-// console.log(new Date(2024,2,11).toString()); //parameter should be same for ggetting the write value
+// console.log(new Date(2024,2,11).toString()); //parameter should be same for getting the write value
 // console.log(new Date("2024-03-11").toString());
 // console.log(typeof(MyDate));
 

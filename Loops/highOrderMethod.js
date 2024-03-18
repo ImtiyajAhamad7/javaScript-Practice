@@ -1,7 +1,8 @@
 let arr = [2,3,4,5,6,7,8];
 // console.log(`before filter ${arr}`);
 // let t = arr.filter((item,index, arr)=>{                                   //returns a new array after filtering out items on specified condition
-//     console.log(`element ${item} at index ${index} in array ${arr}`);
+
+//     console.log(`element ${item} at index ${index} in array ${arr}`);      //returns boolean value after filtering out items on specified condition
 //     return item % 2 === 0;
 // })
 

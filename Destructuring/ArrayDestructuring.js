@@ -15,7 +15,7 @@
 
 // console.log(myproglange.length);
 
-//  let [top1,,,,last] = myproglange;
+//  let [top1,,,,last] = myproglange;         //this is how we can escape array elements
 //  console.log(`my first language is ${top1} and my last language is ${last}`);
 
 // let[top1,, top2] = myproglange;
